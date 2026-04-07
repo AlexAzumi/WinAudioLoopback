@@ -1,8 +1,10 @@
 # WinAudioLoopback
 
-![WinAudioLoopback screenshot](./screenshot.png)
+Simple windows app that allows to channel an audio input to a output device.
 
-Simple windows app that allows to channel a input sound to a output device.
+<p align="center">
+  <img src='./screenshot.png' />
+</p>
 
 ## Why does this exists?
 
