@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(App));
             inputDevicesCB = new ComboBox();
             groupBox1 = new GroupBox();
             groupBox2 = new GroupBox();
@@ -131,6 +132,7 @@
             Controls.Add(groupBox1);
             Font = new Font("Arial", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             FormBorderStyle = FormBorderStyle.FixedSingle;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
             Name = "App";
             StartPosition = FormStartPosition.CenterScreen;

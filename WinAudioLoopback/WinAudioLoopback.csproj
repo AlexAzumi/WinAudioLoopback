@@ -11,7 +11,12 @@
     <Authors>AlexAzumi</Authors>
     <Company>Azumi's Code</Company>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <ApplicationIcon>volume_16786391.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="volume_16786391.ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <None Include="..\README.md">
